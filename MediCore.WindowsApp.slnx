@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MediCore.Core/MediCore.Core.csproj" Id="c7074e2b-0673-4732-a4ae-e777b28b8856" />
+  <Project Path="MediCore.WindowsApp/MediCore.WindowsApp.csproj" Id="50c53228-bce0-4f92-a42c-e38735e27e47" />
+</Solution>
