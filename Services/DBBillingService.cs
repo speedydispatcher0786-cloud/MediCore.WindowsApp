@@ -34,6 +34,8 @@ namespace MediCore.App.Services
                 {
                     Bill bill = new Bill();
 
+                    /// Database billing service responsible for managing bill records.
+
                     bill.Id = Convert.ToInt32(reader["Id"]);
                     bill.PatientName = reader["PatientName"].ToString();
                     bill.Service = reader["Service"].ToString();
@@ -46,6 +48,7 @@ namespace MediCore.App.Services
 
             return bills;
         }
+        /// - Debugging and maintenance
 
         public Bill GetBillById(int id)
         {
