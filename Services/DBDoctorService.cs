@@ -18,6 +18,7 @@ namespace MediCore.App.Services
         public List<Doctor> GetAllDoctors()
         {
             List<Doctor> doctors = new List<Doctor>();
+            /// Database service responsible for doctor management operations.
 
             using (SqlConnection conn = new SqlConnection(_connectionString))
             {
