@@ -4,6 +4,10 @@ using MediCore.App.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+/// Database service responsible for appointment management.
+/// Handles CRUD operations, database connectivity,
+/// query execution, debugging support and documentation.
+///
 
 namespace MediCore.App.Services
 {
