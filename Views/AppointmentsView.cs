@@ -26,7 +26,7 @@ namespace MediCore.WindowsApp.Views
             btnUpdate.Click += btnUpdate_Click;
             btnDelete.Click += btnDelete_Click;
         }
-
+\\ Load Method
         private void LoadAppointments()
         {
             dgvappointmentsview.Rows.Clear();
